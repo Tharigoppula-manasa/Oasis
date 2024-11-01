@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #342238;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6b0202;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5em;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+
+.hero {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.center-image {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #080808;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.introduction, .biography, .achievements, .poetry {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #410f03;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 0 20px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+.poetry blockquote {
+    font-style: italic;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-left: 5px solid #8A2BE2;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8A2BE2;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+}
